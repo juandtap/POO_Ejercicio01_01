@@ -15,9 +15,7 @@ public class Gato {
     public int  edad;
     public float peso;
     
-    
     public Gato() {
-        
     }
     
 }

@@ -15,13 +15,14 @@ public class Ejercicio0101 {
         
         // Clase Gato
         Gato cat1 = new Gato();
+        Gato cat2 = new Gato();
+        
         cat1.nombre = "pelusa";
         cat1.edad = 4;
         cat1.color = "gris";
         cat1.peso = 10;
         System.out.println("El gato se llama "+cat1.nombre+" es de color "+cat1.color+" tiene "+cat1.edad+" anios "+" y pesa "+cat1.peso);
         
-        Gato cat2 = new Gato();
         cat2.nombre = "coockie";
         cat2.edad = 6;
         cat2.color = "blanco";
@@ -30,13 +31,14 @@ public class Ejercicio0101 {
         
         // Clase Auto
         Auto car1 = new Auto();
+        Auto car2 = new Auto();
+        
         car1.placa = "PCB-2344";
         car1.anio = 2020;
         car1.color = "rojo";
         car1.modelo = "honda";
         System.out.println("Auto : Placa: "+car1.placa+" modelo: "+car1.modelo+" anio fabricacion: "+car1.anio+" color: "+car1.color);
          
-        Auto car2 = new Auto();
         car2.placa = "ARB-7896";
         car2.anio = 2010;
         car2.color = "blanco";
@@ -45,13 +47,14 @@ public class Ejercicio0101 {
     
         // Clase Persona
         Persona persona1 = new Persona();
+        Persona persona2 = new Persona();
+        
         persona1.nombre = "diego tapia";
         persona1.cedula = "0105922587";
         persona1.telefono = "0984239035";
         persona1.anioNacimiento = 1888;
         System.out.println("Nombre "+persona1.nombre+" cedula: "+persona1.cedula+" telefono: "+persona1.telefono+" anio nacimiento: "+persona1.anioNacimiento);
     
-        Persona persona2 = new Persona();
         persona2.nombre = "juan vasquez";
         persona2.cedula = "0105922777";
         persona2.telefono = "0984569035";
@@ -60,13 +63,14 @@ public class Ejercicio0101 {
         
         // Libro
         Libro book1 = new Libro();
+        Libro book2 = new Libro();
+        
         book1.isbn = "12po456";
         book1.titulo = "el hobbit";
         book1.nombreAutor = "JRR Tolkien";
         book1.anioPublicacion = 1920;
         System.out.println("Libro: "+book1.titulo+" autor: "+book1.nombreAutor+" anio publicacion: "+book1.anioPublicacion+" ISBN: "+book1.isbn);
         
-        Libro book2 = new Libro();
         book2.isbn = "1277b56";
         book2.titulo = "game of thrones";
         book2.nombreAutor = "G R R martin";
@@ -75,13 +79,14 @@ public class Ejercicio0101 {
         
         // SmartPhone
         SmartPhone phone1 = new SmartPhone();
+        SmartPhone phone2 = new SmartPhone();
+        
         phone1.modelo = "A10";
         phone1.marca = "Samsumg";
         phone1.imei ="74389274982";
         phone1.anio = 2019;
         System.out.println("Smartphone: "+phone1.marca+" "+phone1.modelo+" anio: "+phone1.anio+" IMEI: "+phone1.imei);
         
-        SmartPhone phone2 = new SmartPhone();
         phone2.modelo = "SM 210";
         phone2.marca = "Samsumg";
         phone2.imei ="88895274982";
